@@ -1,1 +1,101 @@
-@import url('https://fonts.googleapis.com/css?family=Do+Hyeon');
+* {
+    background-image: url("round.pgn");
+}
+
+.flex-container-top {
+    display: flex;
+    flex-direction: row;
+    background-color: #ffffff;
+    border-bottom-color: #cccccc;
+    margin: auto;
+    justify-content: center;
+    width: 960px;
+    border-bottom: #cccccc;
+    border-width: 2px;
+    border-style: solid;
+    border-top-style: none;
+    border-left-style: none;
+    border-right-style: none;
+}
+
+nav {
+    background-color: #ffffff;
+    border-bottom-color: #cccccc;
+    box-sizing: border-box;
+    
+}
+.topBox {
+    background-color: #ffffff;
+    border-bottom-color: #cccccc;
+    box-sizing: border-box;
+    margin: auto;
+    position: relative;
+    height: 50px;
+    width: 717.34px;
+}
+
+.headerBox {
+    background-color: #4aaaa5;
+    color: #ffffff;
+    height: 50px;
+    width: 150px;
+    text-align: center;
+    box-sizing: border-box;
+    position: absolute;
+    left: auto;
+}
+
+h2 {
+    margin: 0;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #ffffff;
+}
+
+li {
+    float: right;
+}
+
+li a {  
+    display: block;
+    color: #777777;
+    text-align: center;
+    padding: 16px;
+    text-decoration: none;
+}
+
+li a:hover {
+    background-color: #dddddd;
+}
+
+.content-area {
+    width: 960px;
+    background-color: #ffffff;
+    box-sizing: border-box;
+    justify-content: center;
+    margin: auto;
+}
+
+img {
+    float: left;
+    height: 200px;
+    width: 250px;
+    margin-right: 15px;
+}
+
+.aboutBox {
+    height: 100px;
+    color: #4aaaa5;
+    border-bottom: #cccccc;
+    border-width: 5px;
+    border-style: solid;
+    border-top-style: none;
+    border-left-style: none;
+    border-right-style: none;
+ 
+}
