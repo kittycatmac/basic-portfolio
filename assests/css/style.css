@@ -272,3 +272,17 @@ img {
      text-align: center;
      padding: 10px;
  }
+
+ .footer-box {
+     background-color: #666666;
+     border-top-color: #4aaaa5;
+     border-width: 10px;
+     border-style: solid;
+     border-bottom-style: none;
+     border-left-style: none;
+     border-right-style: none;
+     height: 40px;
+     width: 1300px;
+     padding: 40px;
+      margin: 0;
+ }
